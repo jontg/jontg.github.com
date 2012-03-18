@@ -1,0 +1,78 @@
+/* Makeshift CSS Reset */
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Tell the browser to render HTML 5 elements as block */
+header, footer, aside, nav, article {
+    display: block;
+}
+
+header {
+    margin-top: 5px;
+    padding: 10px;
+    background: #cccccc;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+header img {
+    margin-top: 10px;
+}
+
+#bio {
+    float: left;
+    display: block;
+    margin: 10px;
+}
+
+#ontheweb {
+    float: right;
+    display: block;
+}
+
+#intro {
+    float: left;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+body {
+    margin: 0 auto;
+    width: 940px;
+    font: 13px/22px Helvetica, Arial, sans-serif;
+    background: #f3ebce;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 44px;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+p {
+    padding-bottom: 22px;
+}
+
+nav ul {
+    margin: 0 auto;
+    width: 940px;
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    text-decoration: none;
+}
