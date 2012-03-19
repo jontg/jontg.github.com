@@ -12,10 +12,11 @@ header, footer, aside, nav, article {
 header {
     margin-top: 5px;
     padding: 10px;
-    background: #cccccc;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
+    background: #f3ebcf;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 2px 2px 2px #000000;
 }
 
 header img {
@@ -45,7 +46,13 @@ body {
     margin: 0 auto;
     width: 940px;
     font: 13px/22px Helvetica, Arial, sans-serif;
-    background: #f3ebce;
+    background: url('images/creme_background.png') repeat scroll top left;
+}
+
+div.main {
+    margin: 0 auto;
+    background: #f4f3e2;
+    padding: 5px;
 }
 
 h2 {
