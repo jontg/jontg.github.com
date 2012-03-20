@@ -83,3 +83,12 @@ nav ul li {
     text-align: center;
     text-decoration: none;
 }
+
+a {
+    color: #777;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+}
