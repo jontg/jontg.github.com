@@ -55,6 +55,13 @@ div.main {
     padding: 5px;
 }
 
+#wordmap {
+    background: #FFF;
+    padding:4px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px #777;
+}
+
 h2 {
     font-size: 28px;
     line-height: 44px;
