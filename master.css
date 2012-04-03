@@ -16,7 +16,7 @@ header {
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
-    box-shadow: 2px 2px 2px #000000;
+    box-shadow: 2px 2px 2px 2px #777;
 }
 
 header img {
@@ -59,7 +59,7 @@ div.main {
     background: #FFF;
     padding:4px;
     border-radius: 4px;
-    box-shadow: 2px 2px 2px #777;
+    box-shadow: 2px 2px 2px 2px #777;
 }
 
 h2 {
