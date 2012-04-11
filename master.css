@@ -19,6 +19,11 @@ header {
     box-shadow: 2px 2px 2px 2px #777;
 }
 
+footer {
+    width: 100%;
+    text-align: center;
+}
+
 header img {
     margin-top: 10px;
 }
