@@ -51,7 +51,7 @@ body {
     margin: 0 auto;
     width: 940px;
     font: 13px/22px Helvetica, Arial, sans-serif;
-    background: url('images/creme_background.png') repeat scroll top left;
+    background: url('/images/creme_background.png') repeat scroll top left;
 }
 
 div.main {
