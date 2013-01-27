@@ -81,7 +81,13 @@ p {
     padding-bottom: 22px;
 }
 
+hr {
+    clear: left;
+}
+
 nav ul {
+    display: block;
+    clear: left;
     margin: 0 auto;
     width: 940px;
     list-style: none;
