@@ -1,24 +1,32 @@
 <style>
   sidebar {
-    display: none;
+    display: block;
     position: relative;
-    height: 600px;
     width: 200px;
-    top: 100px;
+    top: 50px;
     left: 935px;
-    background: #000000;
+    background: #ffffff;
     float: none;
     margin: 0;
     padding: 0;
     border-radius: 0 4px 4px 0;
     z-index: 1;
   }
+
+  sidebar a {
+    margin-top: 1em;
+    padding-top: 3.5em;
+    padding: 1.5em;
+  }
 </style>
 <sidebar>
-  Text is here
+  <br />
+  <a href="/archive.html">Archives</a><br />
+  <a href="/tags.html">Tags</a><br />
   <ul>
   {% for post in site.posts %}
   	<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
   </ul>
+  <br />
 </sidebar>
