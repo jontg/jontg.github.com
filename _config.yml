@@ -1,3 +1,11 @@
 baseurl: /
 gems:
   - jekyll-sitemap
+authors:
+  jontg:
+    name: Jón Tómas Grétarsson
+    display_name: Jón Tómas
+    email: jon.gretarsson@gmail.com
+    web: http://ulfhedinn.net/
+    twitter: jontomas
+    github: jontg
