@@ -1,6 +1,7 @@
 baseurl: /
 gems:
   - jekyll-sitemap
+lang: en
 authors:
   jontg:
     name: Jón Tómas Grétarsson
